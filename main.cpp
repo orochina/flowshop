@@ -1,6 +1,6 @@
 int main()
 {
-    ifstream ifs("input.txt");                                           // 读取数据 
+    ifstream ifs("FT06.txt");                                           // 读取数据 
     outfile.open("output.txt");                                          // 输出结果 
     if(!ifs)
     {
@@ -30,7 +30,7 @@ int main()
     }
     cout<<"//////////////////////////////////////////////////"<<endl;;
     srand(time(NULL));                                                  //根据系统时间设置一个随机种子，保证每次运行随机种子不同 
-    initialization();                                                   //初始化种群；
+    initial();                                                          //初始化种群；
                 for(int g=0; g<G; g++)
                 {
                     for(int c=0; c<populationnumber; c++)               //计算每个个体适应度并存在ttime中；
