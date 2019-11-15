@@ -1,1 +1,1 @@
-# a homework for flowshop by GA ,using the benchmark FTO6
+# a homework of flowshop by GA ,using the benchmark FTO6
